@@ -3,6 +3,12 @@
 Here's a small bunch of some of more conventional programs I'm writing. Most of these will be implementations of data structures or algorithms, but I might throw in a few attempts to solve interesting problems my friends tell me.
 
 
+It currently includes:
+* Knapsack Problem Solutions
+* A Huffman Encoder
+* A Couple Short Sorts
+* One-liner for ManyWordsProblem
+
 **Knapsack Problem |**
 The knapsack problem has three main variations: unbounded, 1/0 (most common), and bounded (hardest). I implemented DP solutions for both the unbounded and 1/0 variations. 
 
