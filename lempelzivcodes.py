@@ -49,14 +49,15 @@ def LZW_decoder(encoded, d, max_val=255, bit_length=9):
 	return ''.join(original)
 
 #Example Usage
-initial_dict = {s:ord(s) for s in ascii_letters+" "}
+initial_dict = {s:ord(s) for s in ascii_letters+" .,!"}
 inv_dict = {v: k for k, v in initial_dict.items()}
-test_str = "banana bandana"
-print(getsizeof(test_str))
-encoded = LZW_encoder(test_str, initial_dict)
+original = "banana bandana"
+encoded = LZW_encoder(original, initial_dict)
 decoded = LZW_decoder(encoded, inv_dict)
-print("Encoded:",encoded)
-print(getsizeof(encoded))
-print("Decoded:",decoded)
+print()
+print("Original:", original)
+print("Encoded:", encoded)
+print("Decoded:", decoded)
 memsaved = round(1000*(getsizeof(encoded)/getsizeof(decoded)))/10
 print(str(memsaved)+"%"+" of original ")
+print()
