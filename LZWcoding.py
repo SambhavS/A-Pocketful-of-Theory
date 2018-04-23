@@ -1,4 +1,4 @@
-#Lempel–Ziv–Welch Compression Encoder & Decoder (Default set to ASCII, 9-bit))
+#Lempel–Ziv–Welch Compression Coding (Encoder & Decoder | Default set to ASCII, 9-bit)
 from string import ascii_letters
 from textwrap import wrap
 from sys import getsizeof

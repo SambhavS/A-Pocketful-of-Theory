@@ -1,4 +1,4 @@
-#Huffman Compression Encoder
+#Huffman Compression Coding (Encoder & Decoder)
 from heapq import *
 from sys import getsizeof
 
