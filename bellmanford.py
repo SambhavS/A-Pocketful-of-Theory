@@ -16,8 +16,8 @@ def bellManFord(source_node, nodes, edges):
 	return nodeCosts, prevNodes
 
 #Example Usage
-source_node = "S"
-nodes = ["S","A","B","C","D","E"]
-edges = [("S","E",8), ("E","D",1), ("D","C",-1), ("C","B",-2),
-			("B","A",1), ("S","A",10), ("D","A",-4), ("A","C",-2)]
+source_node = 'S'
+nodes = ['S','A','B','C','D','E']
+edges = [('S','E',8), ('E','D',1), ('D','C',-1), ('C','B',-2),
+			('B','A',1), ('S','A',10), ('D','A',-4), ('A','C',-2)]
 print(bellManFord(source_node, nodes, edges))
