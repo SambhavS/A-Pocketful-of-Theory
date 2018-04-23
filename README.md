@@ -28,5 +28,5 @@ For ManyWordsProblem, I wrote a pretty ugly one-liner that solves it (actually g
 > Given a set of words and a string containing many words concatenated together without spaces,
 > write a function that determines whether the given string is made entirely of words from the dictionary.
 >
-> For example f( "hellohowdyhi" , {"hello","howdy","hi"} ) should return True and f( "hellohellohello" , {"hello","hi"} ) 
-> should also return True. However f( "hotdog" , {"ho","ot","dog"} ) should return False.
+> For example f( "hellohowdyhi" , {"hello", "howdy", "hi"} ) should return True and f( "hellohellohello" , {"hello", "hi"} ) 
+> should also return True. However f( "hotdog" , {"ho", "ot", "dog"} ) should return False.
