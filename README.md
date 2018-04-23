@@ -24,8 +24,8 @@ For Bellman-Ford, I implemented the algorithm simply using tuples to represent e
 For Short Megesort/Quicksort, I wrote some ugly but very short code to implement them, for fun, mostly because APCS gave us the impression that they take long masses of Java to implement. 
 
 
-The many words problem was told to me by a friend and it goes like this: 
-
-Given a set of words and a string containing many words concatenated together without spaces,
-write a function that determines whether the given string is made entirely of words from the dictionary.
-For example f( "hellohowdyhi" , {"hello","howdy","hi"} ) should return True and f( "hellohellohello" , {"hello","hi"} ) should also return True. However f( "hotdog" , {"ho","ot","dog"} ) should return False. For fun, I wrote a pretty ugly one-liner that solves it (actually good solution should also implement memoization).
+For ManyWordsProblem, I wrote a pretty ugly one-liner that solves it (actually good solution should also implement memoization). The problem goes like this:
+> Given a set of words and a string containing many words concatenated together without spaces,
+> write a function that determines whether the given string is made entirely of words from the dictionary.
+> For example f( "hellohowdyhi" , {"hello","howdy","hi"} ) should return True and f( "hellohellohello" , {"hello","hi"} ) 
+> should also return True. However f( "hotdog" , {"ho","ot","dog"} ) should return False. For fun, 
