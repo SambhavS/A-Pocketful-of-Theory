@@ -4,23 +4,20 @@ Here's a small bunch of some of more conventional programs I'm writing. Most of 
 
 
 Topics include:
+* Bellman-Ford Algorithm
 * Knapsack Problem
-* Huffman Encoding
-* MergeSort/QuickSort
-* ManyWordsProblem
+* Huffman Coding
+* Lempel-Ziv-Welch (LZW) Coding
+* Short MergeSort/QuickSort
+* Many Words Problem
 
-**Knapsack Problem |**
-The knapsack problem has three main variations: unbounded, 1/0 (most common), and bounded (hardest). I implemented DP solutions for both the unbounded and 1/0 variations. 
-
-
-**Huffman Encoding |**
-I implemented a huffman encoder that takes in a string and comes up with a Huffman tree which it uses to create a compressed binary of the given string.
+## Some Notes
+For Huffman Coding & LZW Coding, I implemented an encoder and decoder for each. For the Knapsack problem, I implemented a solution to the unbounded and 1/0 variations of the problem. For Bellman-Ford, I implemented the algorithm simply using tuples to represent edges and a list of chars to represent node labels.
 
 
 **Short Sorts |**
 In APCS, I was taught that QuickSort and MergeSort take a lot of code to implement, particularly in Java. 
-Here they are implemented in just a few lines of python.
-
+I wrote some ugly but very short solutions, for fun.
 
 **ManyWordsProblem |**
 A friend told me this problem and I call it the many words problem.
@@ -32,4 +29,4 @@ write a function that determines whether the given string is made entirely of wo
 
 For example f( "hellohowdyhi" , {"hello","howdy","hi"} ) should return True and f( "hellohellohello" , {"hello","hi"} ) should also return True. However f( "hotdog" , {"ho","ot","dog"} ) should return False.
 
-I thought it would be fun to find a one-line solution which I implemented here. The actually good solution also implements memoization.
+I wrote a an ugly one-liner to solve it, for fun.
