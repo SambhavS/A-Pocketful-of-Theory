@@ -12,21 +12,20 @@ Topics include:
 * Many Words Problem
 
 ## Some Notes
-For Huffman Coding & LZW Coding, I implemented an encoder and decoder for each. For the Knapsack problem, I implemented a solution to the unbounded and 1/0 variations of the problem. For Bellman-Ford, I implemented the algorithm simply using tuples to represent edges and a list of chars to represent node labels.
+For Huffman Coding & LZW Coding, I implemented an encoder and decoder for each. 
 
 
-**Short Sorts |**
-In APCS, I was taught that QuickSort and MergeSort take a lot of code to implement, particularly in Java. 
-I wrote some ugly but very short solutions, for fun.
-
-**ManyWordsProblem |**
-A friend told me this problem and I call it the many words problem.
+For the Knapsack problem, I implemented a solution to the unbounded and 1/0 variations of the problem. 
 
 
-It goes like this: Given a set of words and a string containing many words concatenated together without spaces,
+For Bellman-Ford, I implemented the algorithm simply using tuples to represent edges and a list of chars to represent node labels. 
+
+
+For Short Megesort/Quicksort, I wrote some ugly but very short code to implement them, for fun, mostly because APCS gave us the impression that they take long masses of Java to implement. 
+
+
+The many words problem was told to me by a friend and it goes like this: 
+
+Given a set of words and a string containing many words concatenated together without spaces,
 write a function that determines whether the given string is made entirely of words from the dictionary.
-
-
-For example f( "hellohowdyhi" , {"hello","howdy","hi"} ) should return True and f( "hellohellohello" , {"hello","hi"} ) should also return True. However f( "hotdog" , {"ho","ot","dog"} ) should return False.
-
-I wrote a an ugly one-liner to solve it, for fun.
+For example f( "hellohowdyhi" , {"hello","howdy","hi"} ) should return True and f( "hellohellohello" , {"hello","hi"} ) should also return True. However f( "hotdog" , {"ho","ot","dog"} ) should return False. For fun, I wrote a pretty ugly one-liner that solves it (actually good solution should also implement memoization).
