@@ -38,6 +38,7 @@ def LZW_decoder(encoded, d, max_val=255, bit_length=9):
 	#Decoding
 	nextVal = max_val + 1
 	original=[]
+	d = {v: k for k, v in d.items()}
 	curr_str = d[encoded.pop(0)]
 	original.append(curr_str)
 	while encoded:
@@ -59,8 +60,7 @@ def printSummary(encoded, decoded, original):
 
 #Example Usage
 initial_dict = {s:ord(s) for s in ascii_letters+" .,!"}
-inv_dict = {v: k for k, v in initial_dict.items()}
 original = "banana bandana"
 encoded = LZW_encoder(original, initial_dict)
-decoded = LZW_decoder(encoded, inv_dict)
+decoded = LZW_decoder(encoded, initial_dict)
 printSummary(encoded, decoded, original)
