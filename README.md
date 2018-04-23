@@ -1,6 +1,6 @@
 #  A Pocketful of Theory
 
-Here's a small bunch of some of more conventional programs I'm writing. Most of these will be implementations of data structures or algorithms, but I might throw in a few attempts to solve interesting problems my friends tell me.
+Here's a small bunch of some of the more vanilla programs I'm writing. Most of these will be implementations of data structures or algorithms, but I might throw in a few attempts to solve interesting problems my friends tell me.
 
 
 Topics include:
